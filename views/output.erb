@@ -1,0 +1,5 @@
+<% if @output.outcome == 0 %>
+    <h1>Happy birthday <%=@output.name%>!</h1>
+    <% else %>
+    <h1>Your birthday will be in <%=@output.outcome%> days, <%=@output.name%></h1>
+    <% end %>
